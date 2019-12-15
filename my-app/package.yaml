@@ -21,11 +21,6 @@ description:         Please see the README on Github at <https://github.com/gith
 
 dependencies:
 - base
-- interpolate
-- containers
-- bytestring
-- text
-- vector
 
 ghc-options:
 - -Wall
@@ -36,47 +31,6 @@ ghc-options:
 - -Wpartial-fields
 - -Wredundant-constraints
 - -fno-warn-unused-imports
-
-default-extensions:
-- AutoDeriveTypeable
-- BangPatterns
-- BinaryLiterals
-- ConstraintKinds
-- DataKinds
-- DefaultSignatures
-- DeriveDataTypeable
-- DeriveFoldable
-- DeriveFunctor
-- DeriveGeneric
-- DeriveTraversable
-- DoAndIfThenElse
-- EmptyDataDecls
-- ExistentialQuantification
-- FlexibleContexts
-- FlexibleInstances
-- FunctionalDependencies
-- GADTs
-- GeneralizedNewtypeDeriving
-- InstanceSigs
-- KindSignatures
-- LambdaCase
-- MonadFailDesugaring
-- MultiParamTypeClasses
-- MultiWayIf
-- NamedFieldPuns
-- OverloadedStrings
-- PartialTypeSignatures
-- PatternGuards
-- PolyKinds
-- RankNTypes
-- RecordWildCards
-- ScopedTypeVariables
-- StandaloneDeriving
-- TupleSections
-- TypeApplications
-- TypeFamilies
-- TypeSynonymInstances
-- ViewPatterns
 
 executables:
   my-app:
