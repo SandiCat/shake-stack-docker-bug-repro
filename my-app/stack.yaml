@@ -1,0 +1,7 @@
+resolver: lts-14.17
+
+packages:
+- .
+
+docker:
+  enable: true
