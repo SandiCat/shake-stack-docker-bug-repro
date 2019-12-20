@@ -5,3 +5,6 @@ packages:
 
 docker:
   enable: true
+  # image: "ubuntu:18.04"
+  # ^ pretty sure the problem happens with any image, no need to
+  #   download the huge fpco/stack-build images

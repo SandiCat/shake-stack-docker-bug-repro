@@ -6,3 +6,4 @@
 tarballs/
 .stack-work/
 .stack-work-*/
+build-system/log.txt
